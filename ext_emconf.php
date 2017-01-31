@@ -15,14 +15,13 @@
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Just Content - plan and assign content updates',
     'description' => 'Assign content and pages to backend users to prevent outdated content.',
-    'category' => 'fe',
-    'version' => '0.0.7',
+    'category' => 'module',
+    'version' => '0.0.1',
     'state' => 'beta',
     'author' => 'Thomas Löffler',
     'constraints' => [
         'depends' => [
-            'typo3' => '7.6.0-8.99.99',
-            'fluid_styled_content' => '7.6.0'
+            'typo3' => '7.6.0-8.99.99'
         ],
         'conflicts' => [],
         'suggests' => []
