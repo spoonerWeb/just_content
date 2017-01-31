@@ -25,6 +25,11 @@
   "require": {
     "typo3/cms": "^7.6 || ^8"
   },
+  "autoload": {
+    "psr-4": {
+      "SpoonerWeb\\JustContent\\": "Classes/"
+    }
+  },
   "config": {
     "vendor-dir": ".Build/vendor/",
     "bin-dir": ".Build/bin/"
