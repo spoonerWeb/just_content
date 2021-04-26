@@ -1,5 +1,5 @@
 {
-  "name": "spooner-web/just_content",
+  "name": "spooner-web/just-content",
   "type": "typo3-cms-extension",
   "description": "Assign content and pages to backend users to prevent outdated content.",
   "homepage": "https://typo3.org",
@@ -23,8 +23,8 @@
     }
   ],
   "require": {
-    "php": "^7.2",
-    "typo3/cms-core": "^8"
+    "php": "^7.4",
+    "typo3/cms-core": "^10.4"
   },
   "autoload": {
     "psr-4": {
@@ -38,7 +38,8 @@
   "extra": {
     "typo3/cms": {
       "cms-package-dir": "{$vendor-dir}/typo3/cms",
-      "web-dir": ".Build/Web"
+      "web-dir": ".Build/Web",
+      "extension-key": "just_content"
     }
   }
 }
