@@ -1,13 +1,11 @@
 module.tx_justcontent {
-    persistence {
+  settings {
+    timeToOutdated = 6 months
+  }
 
-    }
-    settings {
-        timeToOutdated = 6 months
-    }
-    view {
-        templateRootPath = EXT:just_content/Resources/Private/Backend/Templates/
-        partialRootPath = EXT:just_content/Resources/Private/Partials/
-        layoutRootPath = EXT:just_content/Resources/Private/Backend/Layouts/
-    }
+  view {
+    templateRootPath = EXT:just_content/Resources/Private/Backend/Templates/
+    partialRootPath = EXT:just_content/Resources/Private/Partials/
+    layoutRootPath = EXT:just_content/Resources/Private/Backend/Layouts/
+  }
 }
